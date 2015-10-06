@@ -1,0 +1,28 @@
+{
+  "name": "algorithms-and-structures",
+  "version": "1.0.0",
+  "description": "sandbox for js algorithms and structures refrence and practice",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnNortz/JS-Algorithms.git"
+  },
+  "author": "John Nortz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnNortz/JS-Algorithms/issues"
+  },
+  "homepage": "https://github.com/JohnNortz/JS-Algorithms"
+}
