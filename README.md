@@ -1,5 +1,7 @@
 JavaScript Algorithms and Data-Structures
 
+most recent changes: added 4 traversal methods for binary_search_tree
+
 #Doubly-Linked List
 
   linked_list.js contains the object DList (this requires node.js file).
@@ -42,5 +44,10 @@ JavaScript Algorithms and Data-Structures
     > tree_name.depth() this returns the maximum depth of the tree. A tree with 3 nodes has a depth of either 2 or 3 (2 if the tree is complete and balanced for example)
 
     > tree_name.balance() will return the balance of the tree. Balance shows the distribution of nodes in the tree. A node with 2 children or no children returns a balance of 0, it is balanced. If a node only has one child it is not balanced. If that one child is in the left slot of the node, the node is said to have a balance of -1. It has a balance of 1 if the child is in the right slot. This method returns the total balance of the tree
+
+    > tree_name.to_s_preOrder, tree_name.to_s_postOrder, tree_name.to_s_ordered
+      Each of these print to console their repecitve tree traversals.
+
+    > tree_name.to_s_Breadth  will print to console the tree after traversin one layer at a time from root level downwards.
 
 binary_search_tree_test.js is included for examples and t guarentee functionality.
