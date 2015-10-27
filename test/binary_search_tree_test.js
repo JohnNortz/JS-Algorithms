@@ -10,6 +10,18 @@ describe("Binary Search Tree", function() {
   t.insert(53);
   t.insert(3);
 
+  console.log("Breadth: ");
+  t.to_s_breadth(t.root);
+
+  console.log("Ordered: ");
+  t.to_s_ordered(t.root);
+
+  console.log("Post Ordered: ");
+  t.to_s_postOrder(t.root);
+
+  console.log("Pre Ordered: ");
+  t.to_s_preOrder(t.root);
+
   it('can have new nodes added and into appropriate locations', function(){
 
     expect(t.root.value).to.equal(15);
